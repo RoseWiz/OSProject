@@ -78,9 +78,12 @@ codespace
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
 1. Run the command **pwd** . ***(1 mark)***
+```bash
 @RoseWiz ➜ /workspaces/OSProject (main) $ whoami
 codespace.
+```
 2. Run the command **cat /etc/passwd** . ***(1 mark)***
+```bash
 @RoseWiz ➜ /workspaces/OSProject (main) $ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
@@ -107,7 +110,9 @@ systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
+```
 3. Run the command **df** . ***(1 mark)***
+```bash
 @RoseWiz ➜ /workspaces/OSProject (main) $ df
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 13635752  17517832  44% /
@@ -216,10 +221,14 @@ shm                65536        8     65528   1% /dev/shm
 2752    ./.git
 1972    ./images
 4744    .
+```
 5. Run the command **ls** . ***(1 mark)***
+```bash
 @RoseWiz ➜ /workspaces/OSProject (main) $ ls
 README.md  images
+```
 6. Run the command **ls -asl** . ***(1 mark)***
+```bash
 @RoseWiz ➜ /workspaces/OSProject (main) $ ls -asl
 total 32
  4 drwxrwxrwx+ 4 codespace root  4096 Jan 22 07:54 .
@@ -227,12 +236,16 @@ total 32
  4 drwxrwxrwx+ 9 codespace root  4096 Jan 22 08:08 .git
 16 -rw-rw-rw-  1 codespace root 15787 Jan 22 08:36 README.md
  4 drwxrwxrwx+ 2 codespace root  4096 Jan 22 07:54 images
+```
 7. Run the command **free -h** . ***(1 mark)***
+```bash
 @RoseWiz ➜ /workspaces/OSProject (main) $ free -h
               total        used        free      shared  buff/cache   available
 Mem:          7.7Gi       1.6Gi       156Mi       1.0Mi       6.0Gi       5.8Gi
 Swap:            0B          0B          0B
+```
 8. Run the command **cat /proc/cpuinfo** . ***(1 mark)***
+```bash
 @RoseWiz ➜ /workspaces/OSProject (main) $ cat /proc/cpuinfo
 processor       : 0
 vendor_id       : AuthenticAMD
@@ -289,22 +302,25 @@ clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
+```
 9. Run the command **top** and type **q** to quit. ***(1 mark)***
-processor       : 1
-vendor_id       : AuthenticAMD
-cpu family      : 25
-model           : 1
-model name      : AMD EPYC 7763 64-Core Processor
-stepping        : 1
-microcode       : 0xffffffff
-cpu MHz         : 3243.115
-cache size      : 512 KB
-physical id     : 0
-top - 08:39:30 up  1:12,  0 users,  load average: 0.50, 0.42, 0.29
-Tasks:  21 total,   1 running,  20 sleeping,   0 stopped,   0 zombie
-%Cpu(s):  2.3 us,  4.7 sy,  0.0 ni, 92.5 id,  0.3 wa,  0.0 hi,  0.2 si,  0.0 st
-MiB Mem :   7930.0 total,    157.0 free,   1644.9 used,   6128.1 buff/cache
-MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5969.0 avail Mem 
+    ```bash
+   @RoseWiz ➜ /workspaces/OSProject (main) $ top
+    processor       : 1
+    vendor_id       : AuthenticAMD
+    cpu family      : 25
+    model           : 1
+    model name      : AMD EPYC 7763 64-Core Processor
+    stepping        : 1
+    microcode       : 0xffffffff
+    cpu MHz         : 3243.115
+    cache size      : 512 KB
+    physical id     : 0
+    top - 08:39:30 up  1:12,  0 users,  load average: 0.50, 0.42, 0.29
+    Tasks:  21 total,   1 running,  20 sleeping,   0 stopped,   0 zombie
+    %Cpu(s):  2.3 us,  4.7 sy,  0.0 ni, 92.5 id,  0.3 wa,  0.0 hi,  0.2 si,  0.0 st
+    MiB Mem :   7930.0 total,    157.0 free,   1644.9 used,   6128.1 buff/cache
+    MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5969.0 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                    
    2617 codespa+  20   0   21.1g 352992  51200 S   2.0   4.3   1:09.58 node                                                                                                       
@@ -324,9 +340,12 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5969.0 avail Mem
    3567 codespa+  20   0  619436  69844  38400 S   0.0   0.9   0:04.19 node                                                                                                       
    4113 codespa+  20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh                                                                                                         
    4161 root      20   0    2616   1408   1408 S   0.0   0.0   0:00.00 sh
+    ```
 10. Run the command **uname -a**. ***(1 mark)***
+```bash
 @RoseWiz ➜ /workspaces/OSProject (main) $ uname -a
 Linux codespaces-5b2405 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+```
 11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
