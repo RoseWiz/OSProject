@@ -4,8 +4,7 @@ Group Name: Dokkōdō.
 
 Section: 2. 
 
-Team Mates:
-1. Muhammad Farhan Budiman and 2017631
+Muhammad Farhan Budiman (2017631).
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
@@ -22,8 +21,8 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository? ***(1 mark)***
-   __https://github.com/RoseWiz/OSProject__.
+1. What is the link of the fork OSProject in your repository?
+***(1 mark)*** __https://github.com/RoseWiz/OSProject__.
 2. How many files and folders are in this repository? ***(1 mark)***
    __Files: 7 and Folders: 1__.
 
