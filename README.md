@@ -1,8 +1,8 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: Dokkōdō. 
 
-Section: __Fill your class section__. 
+Section: 2. 
 
 Team Mates:
 1. Muhammad Farhan Budiman and 2017631
