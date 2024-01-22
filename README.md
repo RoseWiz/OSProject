@@ -79,8 +79,8 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 
 1. Run the command **pwd** . ***(1 mark)***
 ```bash
-@RoseWiz ➜ /workspaces/OSProject (main) $ whoami
-codespace.
+@RoseWiz ➜ /workspaces/OSProject (main) $ pwd
+/workspaces/OSProject
 ```
 2. Run the command **cat /etc/passwd** . ***(1 mark)***
 ```bash
