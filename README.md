@@ -22,11 +22,10 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository? ***je tel***
+1. What is the link of the fork OSProject in your repository? ***(1 mark)***
    __https://github.com/RoseWiz/OSProject__.
-2. How many files and folders are in this repository? ***(1 mark)*** __Folders: 2__.
-   git ls-files | wc -l
-
+2. How many files and folders are in this repository? ***(1 mark)***
+   __Folders: 2__.
 
 ## Exploring github codespaces
 
