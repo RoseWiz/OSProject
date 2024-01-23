@@ -369,13 +369,49 @@ Look at the TERMINAL tab. Run the following commands and provide the output here
 Linux codespaces-5b2405 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+11. What is the available free memory in the system. ***(1 mark)***.
+
+    ```bash
+    5.8Gi.
+    ``````
+
+12. What is the available disk space mounted on /workspace. ***(1 mark)***.
+
+    ```bash
+    17517832 or
+    17G
+    ```
+
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)***.
+
+    ```bash
+    Ubuntu 18.04, x86_64
+    #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+    ```
+
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)***.
+
+    ```bash
+    ls lists all files and directories, while ls -asl lists all files and directories in long format with detailed information and includes hidden files.
+    ```
+
+15. What is the TLB size of the Virtual CPU. ***(1 mark)***.
+
+    ```bash
+    TLB size        : 2560 4K pages
+    ```
+
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)***.
+
+    ```bash
+    cpu MHz         : 3243.302
+    ```
+
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)***.
+
+    ```bash
+    2617 codespa+  20   0   21.1g 352992  51200 S   2.0   4.3   1:09.58 node
+    ```
 
 ## Running your own container instance.
 
