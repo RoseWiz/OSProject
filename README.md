@@ -504,8 +504,12 @@ At the terminal, create a new directory called **myroot**, and run a instance of
     ***(2 mark)***
 
     ```bash
-    root
-    Its prohibited.
+    @RoseWiz ➜ /workspaces/OSProject/myroot (main) $ ls
+    helloworldmyroot.txt
+
+    @RoseWiz ➜ /workspaces/OSProject/myroot (main) $ ls -l
+    total 4
+    -rw-rw-rw- 1 codespace codespace 107 Jan 23 07:33 helloworldmyroot.txt
     ```
 
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question.
@@ -527,13 +531,6 @@ sudo chown -R codespace:codespace myroot
     -rw-rw-rw-  1 codespace root      24870 Jan 23 07:15 README.md
     drwxrwxrwx+ 2 codespace root       4096 Jan 22 09:01 images
     drwxrwxrwx+ 3 codespace codespace  4096 Jan 23 07:33 myroot
-
-    @RoseWiz ➜ /workspaces/OSProject/myroot (main) $ ls
-    helloworldmyroot.txt
-
-    @RoseWiz ➜ /workspaces/OSProject/myroot (main) $ ls -l
-    total 4
-    -rw-rw-rw- 1 codespace codespace 107 Jan 23 07:33 helloworldmyroot.txt
     ```
 
 ## You are on your own, create your own static webpage
