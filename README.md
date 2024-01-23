@@ -480,7 +480,7 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 2. Can we run two, or three instances of debian linux?. ***(1 mark)***.
 
     ```bash
-    Yes
+    Yes, we can run two or three instances of debian Linux.
     ```
 
 ## Running your own container with persistent storage
@@ -504,12 +504,9 @@ At the terminal, create a new directory called **myroot**, and run a instance of
     ***(2 mark)***
 
     ```bash
-    @RoseWiz ➜ /workspaces/OSProject/myroot (main) $ ls
-    helloworldmyroot.txt
-
     @RoseWiz ➜ /workspaces/OSProject/myroot (main) $ ls -l
     total 4
-    -rw-rw-rw- 1 codespace codespace 107 Jan 23 07:33 helloworldmyroot.txt
+    -rw-rw-rw- 1 root root 107 Jan 23 07:33 helloworldmyroot.txt
     ```
 
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question.
@@ -523,14 +520,9 @@ sudo chown -R codespace:codespace myroot
     ```bash
     Yes.
 
-    @RoseWiz ➜ /workspaces/OSProject (main) $ ls
-    README.md  images  myroot
-
-    @RoseWiz ➜ /workspaces/OSProject (main) $ ls -l
-    total 36
-    -rw-rw-rw-  1 codespace root      24870 Jan 23 07:15 README.md
-    drwxrwxrwx+ 2 codespace root       4096 Jan 22 09:01 images
-    drwxrwxrwx+ 3 codespace codespace  4096 Jan 23 07:33 myroot
+    @RoseWiz ➜ /workspaces/OSProject/myroot (main) $ ls -l
+    total 4
+    -rw-rw-rw- 1 codespace codespace 107 Jan 23 07:33 helloworldmyroot.txt
     ```
 
 ## You are on your own, create your own static webpage
@@ -560,19 +552,20 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)***.
 
     ```bash
-    Still dont know.
+    @RoseWiz ➜ /workspaces/OSProject/webpage (main) $ docker exec -it vibrant_burnell ls -ld /usr/local/apache2/htdocs/
+    drwxrwxrwx+ 2 1000 root 4096 Jan 23 16:43 /usr/local/apache2/htdocs/
     ```
 
 2. What port is the apache web server running. ***(1 mark)***.
 
     ```bash
-    8080:80?
+    Port 80
     ```
 
 3. What port is open for http protocol on the host machine? ***(1 mark)***
 
     ```bash
-    8080:80?
+    Port 8080 or localhost:8080
     ```
 
 ## What to submit
