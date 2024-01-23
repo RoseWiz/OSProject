@@ -372,7 +372,7 @@ Linux codespaces-5b2405 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25
 11. What is the available free memory in the system. ***(1 mark)***.
 
     ```bash
-    5.8Gi.
+    5.8Gi
     ``````
 
 12. What is the available disk space mounted on /workspace. ***(1 mark)***.
@@ -385,7 +385,7 @@ Linux codespaces-5b2405 6.2.0-1018-azure #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)***.
 
     ```bash
-    Ubuntu 18.04, x86_64
+    Ubuntu 20.04.6 LTS, x86_64
     #18~22.04.1-Ubuntu SMP Tue Nov 21 19:25:02 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
     ```
 
@@ -471,8 +471,17 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)***.
+
+    ```bash
+    No, because the data inside Docker containers is not persistent by default. This means that when the container is destroyed, so is the data.
+    ```
+
+2. Can we run two, or three instances of debian linux?. ***(1 mark)***.
+
+    ```bash
+    Yes
+    ```
 
 ## Running your own container with persistent storage
 
@@ -491,14 +500,25 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
-2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine?.
+    ***(2 mark)***
+
+    ```bash
+    Yes
+    ```
+
+2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question.
+    ***(2 mark)***
+
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+
+```bash
+Yes
+```
 
 ## You are on your own, create your own static webpage
 
