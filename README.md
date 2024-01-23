@@ -23,10 +23,14 @@ Muhammad Farhan Budiman (2017631).
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository?
-***(1 mark)*** <https://github.com/RoseWiz/OSProject>.
-2. How many files and folders are in this repository?
-***(1 mark)*** **Files: 7 and Folders: 1**.
+1. What is the link of the fork OSProject in your repository? ***(1 mark)*** 
+```bash
+<https://github.com/RoseWiz/OSProject>.
+```
+2. How many files and folders are in this repository?***(1 mark)*** 
+```bash
+Files: 7 and Folders: 1.
+```
 
 ## Exploring github codespaces
 
@@ -55,12 +59,20 @@ Muhammad Farhan Budiman (2017631).
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces?
-***(1 mark)*** **Linux**.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces?
-***(1 mark)*** **2-Core, 8GB RAM, 32GB and 4-Core, 16GB RAM, 32GB**.
-3. Why must we commit and sync our current work on source control?
-***(1 mark)*** **To save into the main repository when you submit your project**.
+1. What is default OS used to run the virtual environment for codespaces? ***(1 mark)*** 
+```bash
+Linux.
+```
+
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces? ***(1 mark)*** 
+```bash
+2-Core, 8GB RAM, 32GB and 4-Core, 16GB RAM, 32GB.
+```
+
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** 
+```bash
+To save into the main repository when you submit your project.
+```
 
 ## Exploring the Terminal
 
