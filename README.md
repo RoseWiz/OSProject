@@ -514,7 +514,6 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
-
 ```
 
     ```bash
@@ -561,9 +560,23 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)***
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)***.
+
+    ```bash
+    Still dont know.
+    ```
+
+2. What port is the apache web server running. ***(1 mark)***.
+
+    ```bash
+    8080:80?
+    ```
+
 3. What port is open for http protocol on the host machine? ***(1 mark)***
+
+    ```bash
+    8080:80?
+    ```
 
 ## What to submit
 
